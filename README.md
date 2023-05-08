@@ -14,11 +14,20 @@ The [White Wine Quality dataset](https://archive.ics.uci.edu/ml/datasets/wine+qu
 
 # Models
 
-We trained a decision tree model, a random forest model, and a SVM model on the dataset.
+Using the scikit-learn package, we trained three models on the dataset:
+- A [SVM model](White_Wine_Quality_Prediction_SVM.ipynb) using a Gaussian RBF kernel with hyperparameters *c=100* and *gamma=0.93*, where *c* controls margin tolerance and *gamma* controls model regularization. Before training the model, some outliers were dropped and the data was scaled. (Specific details may be found in the linked notebook.)
+- A [decision tree model](White_Wine_Quality_Prediction_Random_Forest.ipynb) ...
+- A [random forest model](White_Wine_Quality_Prediction_Random_Forest.ipynb) ...
+
+The hyperparameters were chosen by handpicking and using grid search methods.
 
 # Results
 
-Using a SVM model, we were able to achieve 69.0% accuracy, which beats the benchmark of 64.6% given in (Cortez, et al., 2009).
+With our decision tree model, we ...
+
+Using the random forest model, we ...
+
+With our SVM model, we were able to achieve 69.0% accuracy, which beats the benchmark of 64.6% given in (Cortez, et al., 2009). Here is the corresponding confusion matrix: 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74211589/236936922-f345ce21-e575-47ab-8de5-45f8df47e7d3.png" width="300" height="300"   />
 </p>
