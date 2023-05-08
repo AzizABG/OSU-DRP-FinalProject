@@ -23,14 +23,14 @@ The hyperparameters were chosen by handpicking and using grid search methods.
 
 # Results
 
-With our decision tree model, we ...
-
-Using the random forest model, we ...
-
 With our SVM model, we were able to achieve 69.0% accuracy, which beats the benchmark of 64.6% given in (Cortez, et al., 2009). Here is the corresponding confusion matrix: 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74211589/236936922-f345ce21-e575-47ab-8de5-45f8df47e7d3.png" width="300" height="300"   />
 </p>
+
+With our decision tree model, we ...
+
+Using the random forest model, we ...
 
 # Improvements
 
