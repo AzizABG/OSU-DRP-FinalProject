@@ -38,8 +38,7 @@ Viewing all features in the dataset as a box plot results in the figure on top. 
 
 Using the scikit-learn package, we trained three models on the dataset:
 - A [SVM model](White_Wine_Quality_Prediction_SVM.ipynb) using a Gaussian RBF kernel with hyperparameters *c=100* and *gamma=0.93*, where *c* controls margin tolerance and *gamma* controls model regularization. Before training the model, some outliers were dropped and the data was scaled. (Specific details may be found in the linked notebook.)
-- A [decision tree model](White_Wine_Quality_Prediction_Random_Forest.ipynb) ...
-- A [random forest model](White_Wine_Quality_Prediction_Random_Forest.ipynb) with hyperparameters of *max depth=100* and *estimators=75*
+- A [random forest model](White_Wine_Quality_Prediction_Random_Forest.ipynb) with 75 estimators and a max depth of 100.
 
 The hyperparameters were chosen by handpicking and using grid search methods.
 
@@ -50,9 +49,10 @@ With our SVM model, we were able to achieve 69.0% accuracy, which beats the benc
   <img src="https://user-images.githubusercontent.com/74211589/236936922-f345ce21-e575-47ab-8de5-45f8df47e7d3.png" width="300" height="300"   />
 </p>
 
-With our decision tree model, we ...
-
-Using the random forest model, we ...
+Using the random forest model, we were able to achieve an accuracy of 67.9% and confusion matrix:
+<p align="center">
+  <img width="300" height="300" alt="Confusion Matrix" src="https://github.com/AzizABG/OSU-DRP-FinalProject/assets/74211589/90e0b1e6-5110-43b2-9b9d-df13e45ca8d8">
+</p>
 
 # Improvements
 
